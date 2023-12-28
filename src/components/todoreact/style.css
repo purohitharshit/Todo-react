@@ -34,17 +34,27 @@ html {
   font-size: 2.2rem;
   font-weight: bolder;
   padding-top: 2rem;
+  padding-bottom: 3rem;
   text-transform: capitalize;
+}
+.addItems{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
 }
 
 input {
   /* display: block; */
-  min-width: 35rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-width: 32rem;
   height: 3.4rem;
-  padding: 2rem 1.2rem;
+  padding: auto;
   font-size: 1.8rem;
   line-height: 1.42857143;
-  margin-top: 2rem;
   color: rgb(58, 57, 57);
   background-color: #fff;
   background-image: none;
@@ -54,6 +64,7 @@ input {
   box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+
 
 input,
 input:focus,
@@ -112,8 +123,8 @@ input:focus {
   padding: 1rem 1rem;
   border-radius: 0.5rem;
   margin-bottom: 0.7rem;
-  margin-left: 1rem;
-  min-width: 34rem;
+  /* margin-left: 1rem; */
+  min-width: 32rem;
   word-break: break-word;
   background: rgb(85, 41, 220);
   display: flex;
